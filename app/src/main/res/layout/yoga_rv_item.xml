@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lt1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:id="@+id/yoga"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yoga"
+        android:contentDescription="@string/yoga"/>
+        <TextView
+            android:id="@+id/yogaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/asanas"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:layout_marginStart="50dp" />
+</LinearLayout>

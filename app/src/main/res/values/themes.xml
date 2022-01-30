@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AyuCompanion" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#00897B</item>
+        <item name="colorPrimaryVariant">#00897B</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#00897B</item>
+        <item name="colorSecondaryVariant">#00897B</item>
+        <item name="colorOnSecondary">#00897B</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.AyuCompanion.Fullscreen" parent="Theme.AyuCompanion">
+        <item name="android:actionBarStyle">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+</resources>
